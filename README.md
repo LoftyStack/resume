@@ -1,30 +1,55 @@
-![Build](https://github.com/<user>/<repo>/actions/workflows/build.yml/badge.svg)
-
 # Resume as Code
 
-A modular, ATS-friendly LaTeX resume system designed for maintainability,
-versioning, and reproducible PDF generation.
+![Build](https://github.com/YOUR_USERNAME/resume/actions/workflows/build.yml/badge.svg)
+
+A modular, ATS-friendly resume system built using LaTeX, CI automation, and reproducible PDF generation.
+
+This repository treats resumes like maintainable software artifacts:
+- version controlled
+- reproducible
+- modular
+- customizable
+- continuously improved
+
+---
+
+## Preview
+
+![Resume Preview](assets/resume-preview.png)
+
+---
 
 ## Features
 
 - Modular section-based architecture
-- Automated PDF generation
 - ATS-friendly formatting
+- Automated PDF generation
 - GitHub Actions CI pipeline
-- Reproducible builds using LaTeX
-- Easy customization and section reuse
+- Reproducible builds
+- Easy customization
+- Resume versioning support
+
+---
 
 ## Repository Structure
 
 resume/
 ├── sections/
 ├── styles/
+├── assets/
+├── docs/
 ├── output/
+├── scripts/
 ├── .github/workflows/
 ├── resume.tex
-└── Makefile
+├── Makefile
+└── README.md
+
+---
 
 ## Build
+
+### Local Build
 
 ```bash
 make pdf
